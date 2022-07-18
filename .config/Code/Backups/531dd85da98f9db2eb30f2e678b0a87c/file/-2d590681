@@ -1,0 +1,5 @@
+file:///opt/odoo15/odoo/customs/puertopme/static/src/css/main.css {"mtime":1657792366503,"ctime":1657792366503,"size":33,"etag":"3930rrima12","orphaned":false,"typeId":""}
+.w_100{
+	width:100% !important;
+}
+

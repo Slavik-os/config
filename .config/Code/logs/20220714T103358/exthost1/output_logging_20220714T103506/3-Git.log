@@ -1,0 +1,105 @@
+[2022-07-14T09:35:17.093Z] Log level: Info
+[2022-07-14T09:35:17.095Z] [info] Validating found git in: git
+[2022-07-14T09:35:17.220Z] [info] Using git 2.25.1 from git
+[2022-07-14T09:35:17.270Z] > git rev-parse --show-toplevel [17ms]
+[2022-07-14T09:35:17.270Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-14T09:35:17.336Z] > git rev-parse --show-toplevel [22ms]
+[2022-07-14T09:35:17.336Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-14T09:35:17.349Z] > git rev-parse --show-toplevel [7ms]
+[2022-07-14T09:35:17.349Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-14T09:35:17.363Z] > git rev-parse --show-toplevel [7ms]
+[2022-07-14T09:35:17.363Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-14T09:35:17.376Z] > git rev-parse --show-toplevel [6ms]
+[2022-07-14T09:35:17.376Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-14T09:35:17.384Z] > git rev-parse --show-toplevel [3ms]
+[2022-07-14T09:35:17.384Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-14T09:35:17.395Z] > git rev-parse --show-toplevel [4ms]
+[2022-07-14T09:35:17.395Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-14T09:35:17.402Z] > git rev-parse --show-toplevel [2ms]
+[2022-07-14T09:35:17.403Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-14T09:35:17.415Z] > git rev-parse --show-toplevel [5ms]
+[2022-07-14T09:35:17.415Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-14T09:35:17.429Z] > git rev-parse --show-toplevel [9ms]
+[2022-07-14T09:35:17.429Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-14T09:35:17.437Z] > git rev-parse --show-toplevel [2ms]
+[2022-07-14T09:35:17.437Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-14T09:35:17.452Z] > git rev-parse --show-toplevel [6ms]
+[2022-07-14T09:35:17.452Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-14T09:35:17.465Z] > git rev-parse --show-toplevel [7ms]
+[2022-07-14T09:35:17.465Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-14T09:35:17.481Z] > git rev-parse --show-toplevel [6ms]
+[2022-07-14T09:35:17.481Z] fatal: unsafe repository ('/opt/odoo15/odoo' is owned by someone else)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo15/odoo
+[2022-07-14T09:35:17.488Z] > git rev-parse --show-toplevel [2ms]
+[2022-07-14T09:35:17.488Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-14T09:36:54.224Z] > git rev-parse --show-toplevel [48ms]
+[2022-07-14T09:36:54.224Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-14T09:36:54.673Z] > git rev-parse --show-toplevel [8ms]
+[2022-07-14T09:36:54.673Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-14T09:37:12.833Z] > git rev-parse --show-toplevel [21ms]
+[2022-07-14T09:37:12.833Z] fatal: unsafe repository ('/opt/odoo15/odoo' is owned by someone else)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo15/odoo
+[2022-07-14T09:38:08.356Z] > git rev-parse --show-toplevel [3ms]
+[2022-07-14T09:38:08.356Z] fatal: unsafe repository ('/opt/odoo15/odoo' is owned by someone else)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo15/odoo
+[2022-07-14T09:38:28.998Z] > git rev-parse --show-toplevel [5ms]
+[2022-07-14T09:38:28.998Z] fatal: unsafe repository ('/opt/odoo15/odoo' is owned by someone else)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo15/odoo
+[2022-07-14T09:38:34.283Z] > git rev-parse --show-toplevel [4ms]
+[2022-07-14T09:38:34.283Z] fatal: unsafe repository ('/opt/odoo15/odoo' is owned by someone else)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo15/odoo
+[2022-07-14T09:38:38.287Z] > git rev-parse --show-toplevel [19ms]
+[2022-07-14T09:38:38.287Z] fatal: unsafe repository ('/opt/odoo15/odoo' is owned by someone else)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo15/odoo
+[2022-07-14T09:38:45.541Z] > git rev-parse --show-toplevel [11ms]
+[2022-07-14T09:38:45.541Z] fatal: unsafe repository ('/opt/odoo15/odoo' is owned by someone else)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo15/odoo
+[2022-07-14T09:49:50.119Z] > git rev-parse --show-toplevel [14ms]
+[2022-07-14T09:49:50.119Z] fatal: unsafe repository ('/opt/odoo15/odoo' is owned by someone else)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo15/odoo
+[2022-07-14T09:51:54.372Z] > git rev-parse --show-toplevel [25ms]
+[2022-07-14T09:51:54.372Z] fatal: unsafe repository ('/opt/odoo15/odoo' is owned by someone else)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo15/odoo
+[2022-07-14T09:52:59.799Z] > git rev-parse --show-toplevel [2ms]
+[2022-07-14T09:52:59.799Z] fatal: unsafe repository ('/opt/odoo15/odoo' is owned by someone else)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo15/odoo
+[2022-07-14T10:03:18.205Z] > git rev-parse --show-toplevel [9ms]
+[2022-07-14T10:03:18.205Z] fatal: unsafe repository ('/opt/odoo15/odoo' is owned by someone else)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo15/odoo
+[2022-07-14T10:03:40.152Z] > git rev-parse --show-toplevel [23ms]
+[2022-07-14T10:03:40.152Z] fatal: unsafe repository ('/opt/odoo15/odoo' is owned by someone else)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo15/odoo
+[2022-07-14T10:03:57.144Z] > git rev-parse --show-toplevel [7ms]
+[2022-07-14T10:03:57.144Z] fatal: unsafe repository ('/opt/odoo15/odoo' is owned by someone else)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo15/odoo
+[2022-07-14T10:03:59.516Z] > git rev-parse --show-toplevel [7ms]
+[2022-07-14T10:03:59.516Z] fatal: unsafe repository ('/opt/odoo15/odoo' is owned by someone else)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo15/odoo

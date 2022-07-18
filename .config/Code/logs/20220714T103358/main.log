@@ -1,0 +1,7 @@
+[2022-07-14 10:33:58.394] [main] [info] update#setState idle
+[2022-07-14 10:34:02.406] [main] [info] Starting extension host with pid 3049 (fork() took 30 ms).
+[2022-07-14 10:34:28.402] [main] [info] update#setState checking for updates
+[2022-07-14 10:34:28.415] [main] [info] update#setState idle
+[2022-07-14 10:34:57.548] [main] [info] Extension host with pid 3049 exited with code: 0, signal: null.
+[2022-07-14 10:35:01.815] [main] [info] Starting extension host with pid 3396 (fork() took 218 ms).
+[2022-07-14 11:04:26.849] [main] [info] Extension host with pid 3396 exited with code: 0, signal: null.

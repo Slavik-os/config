@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <record id="view_hospital_patient_form" model="ir.ui.view">
+	<field name="model">create_folders</field>
+	<field name="arch" type="xml">
+		<form>
+			<group>
+				<h3>Information sur le Dum Export </h3>	
+			</group>
+
+			<group>
+				<field name="folder_type" />
+			</group>
+
+			<group>
+				<group>
+					<field name="expiditeur"/>	
+					<field name="n_serie"/>	
+				</group>
+
+				<group>
+					<field name="date_DUM"/>	
+					<field name="date_FIN"/>	
+				</group>
+
+				<group>
+					<field name="burea_de_dedouan"/>	
+					<field name="arrondissement"/>
+				</group>
+
+				<group>
+					<field name="regime"/>	
+					<field name="bureaux_de_destination"/>	
+				</group>
+
+				<group>
+					<field name="lieu_stockage"/>	
+				</group>
+
+				<group>
+
+				</group>
+
+				<div class="w_100"  attrs="{'invisible': [('folder_type', '=', False)]}">
+					<group>
+						<field name="dossier_prov_input" />
+
+					</group>
+
+					<group>
+						<field name="dossier_prov"/>
+					</group>
+				</div>
+			</group>
+			<group>
+				<div class="w_100">
+					
+				</div>
+			</group>
+		</form>				
+	</field>
+   </record>
+
+    <record id="folder_creation" model="ir.actions.act_window">
+	    <field name="name">folder_creation</field>
+	    <field name="type">ir.actions.act_window</field>
+	    <field name="res_model">create_folders</field>
+	    <field name="view_mode">tree,form</field>
+	    <field name="context">{}</field>
+	    <field name="help" type="html">
+	  	<p class="o_view_nocontent_smiling_face"> 
+			Create a new Folder !
+	   	</p>
+	    </field>
+    </record>
+
+    <menuitem id="menu_puertopme_root"
+              name="PuertoPme"
+	      action="folder_creation"	     
+              sequence="0"/>
+
+    <menuitem id="menu_create_folder"
+              name="Create Folder"
+              parent="menu_puertopme_root"
+              sequence="0"/>
+
+    <menuitem id="menu_puertopme"
+              name="Folder List "
+              parent="menu_create_folder"
+              sequence="0"/>
+</odoo>
